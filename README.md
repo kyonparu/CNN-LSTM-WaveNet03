@@ -1,3 +1,3 @@
-# CNN-LSTM-WaveNet02
-
-WaveNetちゃんと設定したバージョン。音声は聞けたものではない。
+# CNN-LSTM-WaveNet03
+音声を16kHzに対応するように窓の長さを設定
+WaveNetいらなくね？ってなる
