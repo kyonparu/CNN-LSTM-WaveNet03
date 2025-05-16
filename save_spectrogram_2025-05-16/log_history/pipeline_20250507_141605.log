@@ -1,0 +1,14 @@
+2025-05-07 14:16:05,507 - INFO - Configuration loaded.
+2025-05-07 14:16:05,508 - INFO - Checkpoint path set.
+2025-05-07 14:16:05,509 - INFO - Stages mapped.
+2025-05-07 14:16:05,509 - INFO - Starting feature extraction...
+2025-05-07 14:27:19,454 - INFO - Feature extraction completed.
+2025-05-07 14:27:19,454 - INFO - Starting training...
+2025-05-07 14:27:19,455 - INFO - Initializing SpeechDataset with data_dir: data_set
+2025-05-07 14:27:19,455 - INFO - Retrieving feature dimensions from the first available data...
+2025-05-07 14:27:19,457 - INFO - First line in trainlist: ATR503M0102_101
+2025-05-07 14:27:19,466 - INFO - Extracted speaker_id: M0102, sentence_id: 101
+2025-05-07 14:27:19,983 - INFO - audio_features type: <class 'torch.Tensor'>, shape: torch.Size([100, 80])
+2025-05-07 14:27:19,984 - INFO - articulatory_features type: <class 'numpy.ndarray'>, shape: (514, 6, 6)
+2025-05-07 14:27:19,984 - INFO - phoneme_embeddings type: <class 'torch.Tensor'>, shape: torch.Size([514])
+2025-05-07 14:27:19,984 - ERROR - An error occurred: tuple index out of range
