@@ -1,0 +1,14 @@
+data_dir: data_set                     # データが保存されているディレクトリ
+learning_rate: 0.0001                        # 学習率
+epochs: 30                                  # エポック数
+batch_size: 1                               # バッチサイズ
+checkpoint: train_checkpoint/checkpoint.pth         # チェックポイントファイルのパス
+trainlist: data_split/trainlist.txt           # トレインリストファイルのパス
+devlist: data_split/devlist.txt               # デブリストファイルのパス
+testlist: data_split/testlist.txt             # テストリストファイルのパス
+train_output_dir: dump/   # トレイン特徴量の出力ディレクトリ
+dev_output_dir: dump/       # デブ特徴量の出力ディレクトリ
+test_output_dir: dump/      # テスト特徴量の出力ディレクトリ
+audio_output_dir: inference_outputs/  # 音声出力ディレクトリ
+use_scheduler: true  # ← 追加！falseにすればスケジューラ使わない
+plot_output_dir: loss_plot/ #損失プロットディレクトリ
